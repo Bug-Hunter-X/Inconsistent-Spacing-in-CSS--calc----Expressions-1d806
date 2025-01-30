@@ -1,0 +1,10 @@
+The correct way to use `calc()` is to ensure consistent spacing around operators.
+
+```css
+.element {
+  width: calc(100% - 20px);
+  height: calc(50vh + 10px);
+}
+```
+
+Always include spaces to avoid errors. This ensures proper parsing and calculation of values.
